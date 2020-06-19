@@ -1,0 +1,18 @@
+<body bgcolor="darkgrey">
+
+<center><h1>WORD COUNT</h1>
+
+<form action="{% url 'count' %}">
+  enter text:<textarea cols="50" rows="7" name="fulltext">
+    </textarea><br><br>
+    <input type="submit" value="count" /><br><br>
+</form>
+
+<form action="{% url 'about' %}">
+    <input type="submit" value="about"/>
+</form>
+
+
+
+</center>
+</body>
